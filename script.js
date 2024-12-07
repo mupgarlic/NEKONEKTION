@@ -34,13 +34,13 @@ document.getElementById("question").innerHTML = (questions[randomQ]);
 function checkScore() {
     if (score > 5) {
         document.getElementById("result").innerHTML = "She likes you!";
-        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/tree/main/assets/Win---Zery.png";
+        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/blob/main/assets/Win---Zery.png";
         document.body.style.backgroundColor = "#843880";
     }
 
     if (score < 5) {
         document.getElementById("result").innerHTML = "She doesn't like you...";
-        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/tree/main/assets/Lose---Zery.png";
+        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/blob/main/assets/Lose---Zery.png";
         document.body.style.backgroundColor = "#843880";
     }
 }
@@ -49,13 +49,13 @@ function answer() {
     
     if (Math.random() > 0.5) {
         document.getElementById("result").innerHTML = "She liked your answer!";
-        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/tree/main/assets/Flirt---Zery.gif";
+        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/blob/main/assets/Flirt---Zery.gif";
         score++;
     }
 
     else {
         document.getElementById("result").innerHTML = "She didn't liked your answer that much...";
-        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/tree/main/assets/Mad---Zery.gif";
+        document.getElementById("zery").src = "https://github.com/mupgarlic/NEKONEKTION/blob/main/assets/Mad---Zery.gif";
     }
 
     var randomQ = Math.floor(Math.random() * questions.length);
