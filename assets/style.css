@@ -1,0 +1,33 @@
+body {
+    background: #68c9cf;
+    color: #f2f2f2;
+    font-family: 'Silkscreen';
+    font-size: large;
+}
+
+button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Silkscreen';
+    font-size: large;
+    background: none;
+    color: #f2f2f2;
+    border: solid 2px #f2f2f2;
+}
+
+img {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Silkscreen';
+}
+
+#result {
+    margin-bottom: 1%;
+}
