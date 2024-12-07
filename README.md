@@ -1,4 +1,4 @@
 # NEKONEKTION
 Meet Zery :3
 
-![alt text](https://github.com/mupgarlic/NEKONEKTION/blob/main/Idle---Zery.gif)
+![alt_text](https://github.com/mupgarlic/NEKONEKTION/blob/main/assets/Idle---Zery.gif)
